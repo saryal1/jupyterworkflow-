@@ -1,0 +1,21 @@
+class student():
+    
+    def __init__(self, first, last, grade):
+          self.first = first
+          self.last = last
+          self.grade = grade
+      
+    def fullname(self):
+        return '{} {}'.format(self.first, self.last)
+        
+std_1 = student('Rachel','Thomas',50)
+std_2 = student('Ashely','Hale',70)
+    
+std_1.fullname()
+print (Student.fullname(std_1))
+    
+std_2.fullname()
+print (Student.fullname(std_2))
+    
+
+
